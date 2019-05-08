@@ -17,7 +17,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class SocialFacebookController {
 
 	private FacebookConnectionFactory factory = new FacebookConnectionFactory("425636574880198",
-			"8e948bd2453ca5443636f9a8e4cc8dce");
+			"xxxxxxxxxxxxxxx");
 
 	@RequestMapping("/")
 	public ModelAndView firstPage() {
